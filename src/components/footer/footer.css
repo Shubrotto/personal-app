@@ -1,0 +1,29 @@
+footer {
+  padding: 10px 0;
+  position: relative;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 400;
+}
+
+.click_up {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+  opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

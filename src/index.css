@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@300;400;500;700;900&display=swap");
+
+#root {
+  max-width: 1368px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: start;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* common css */
+
+.common-section-gray {
+  background: #f2f2f2;
+}
+
+.common-wrapper {
+  padding: 120px 255px 120px 255px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.57px;
+  margin: 0 15px;
+}
+
+.title_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_wrapper hr {
+  width: 36.3775%;
+  border: 1px solid #1f1f1f;
+  opacity: 0.5;
+}
+
+.show_btn {
+  opacity: 1 !important;
+  pointer-events: all !important;
+}

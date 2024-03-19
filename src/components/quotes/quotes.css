@@ -1,0 +1,94 @@
+.more_project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.show_more_btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  background: lightblue;
+  border-radius: 10px;
+  color: black;
+}
+
+.quotes_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.wrapper_quotes {
+  margin: 20px 0;
+  display: flex;
+  position: relative;
+}
+
+.quotes_item {
+  display: flex;
+  margin: 2px 10px;
+  padding: 0 5px;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  color: #161515;
+  justify-content: center;
+  transition: 0.6s;
+}
+
+.quotes_item h5 {
+  font-weight: 500;
+  font-size: 14px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 5px;
+  border-top: 2px solid teal;
+  text-align: center;
+}
+
+.quotes_item p {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.quotes_item:hover {
+  border: 2px solid salmon;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .quotes_item {
+    width: 48%;
+  }
+
+  .other-wrapper {
+    padding: 0 120px 0px 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .other-wrapper {
+    padding: 0 80px 0px 80px;
+  }
+
+  .quotes_item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .other-wrapper {
+    padding: 0 50px 0px 50px;
+  }
+}
