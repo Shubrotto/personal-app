@@ -1,6 +1,8 @@
 import "./info.css";
 import InfoImage from "../../assets/info.jpg";
 import { useEffect, useState } from "react";
+import Footer from "../footer/Footer";
+import Header from "../header/Header";
 
 const Info = ({ scrollBottom, handleScrollDown }) => {
   // const [scrollBottom, setScrollBottom] = useState(true);

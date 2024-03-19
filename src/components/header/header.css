@@ -67,14 +67,20 @@
   margin-right: 10px;
   cursor: pointer;
   padding: 12px 10px;
+  white-space: nowrap;
 }
 
-.nav_list a {
+.nav_link {
   text-decoration: none;
   color: white;
   font-size: 16px;
   font-weight: normal;
   padding: 10px;
+  white-space: nowrap;
+}
+
+.nav_quote {
+  white-space: nowrap !important;
 }
 
 .collapse {
@@ -203,16 +209,16 @@
     align-items: center;
   }
 
-  .navbar_left ul li {
+  .nav_list {
     width: 100%;
   }
 
-  .navbar_left ul li a {
+  .nav_link {
     width: 100%;
     display: block;
   }
 
-  .navbar_left ul li a:hover {
+  .nav_link:hover {
     background: teal;
     color: white;
   }

@@ -51,8 +51,8 @@ const Header = () => {
                       experience
                       <span className="sub_nav">
                         <ul>
-                          <li>experience 1</li>
-                          <li>experience 2</li>
+                          <Link>experience 1</Link>
+                          <Link>experience 2</Link>
                         </ul>
                       </span>
                     </Link>
@@ -65,6 +65,11 @@ const Header = () => {
                   <li className="nav_list">
                     <Link className="nav_link" to="/contact">
                       contact
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="nav_link nav_quote" to="/quote">
+                      Get Data
                     </Link>
                   </li>
                 </ul>
@@ -102,6 +107,11 @@ const Header = () => {
                   <li className="nav_list">
                     <Link className="nav_link" to="/contact">
                       contact
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="nav_link nav_quote" to="/quote">
+                      Get Data
                     </Link>
                   </li>
                 </ul>
