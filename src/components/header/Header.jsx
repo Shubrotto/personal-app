@@ -33,12 +33,7 @@ const Header = () => {
             onClick={() => setToggle(!toggle)}
           />
           {toggle === true ? (
-            <div
-              id="navbar"
-              className="navbar"
-              onClick={() => setToggle(toggle)}
-              style={{ display: "block" }}
-            >
+            <div id="navbar" className="navbar" style={{ display: "none" }}>
               <div className="navbar_left">
                 <ul className="nav_lists">
                   <li className="nav_list">
@@ -51,7 +46,7 @@ const Header = () => {
                       experience
                       <span className="sub_nav">
                         <ul>
-                          <Link>experience 1</Link>
+                          <Link className="sub_nav_li">experience 1</Link>
                           <Link>experience 2</Link>
                         </ul>
                       </span>
@@ -80,7 +75,7 @@ const Header = () => {
               </div>
             </div>
           ) : (
-            <div id="navbar" className="navbar">
+            <div id="navbar" className="navbar" style={{ display: "flex" }}>
               <div className="navbar_left">
                 <ul className="nav_lists">
                   <li className="nav_list">

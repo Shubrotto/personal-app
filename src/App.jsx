@@ -7,16 +7,16 @@ import Project from "./components/project/Project";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Info from "./components/info/Info";
 import Quotes from "./components/quotes/Quotes";
+import Info from "./components/info/Info";
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <>
         <Header />
         <Info />
-        <Routes index path="/">
+        <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/quote" element={<Quotes />} />
         </Routes>
         <Footer />
-      </div>
+      </>
     </BrowserRouter>
   );
 }
