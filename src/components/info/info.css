@@ -194,6 +194,13 @@
   .info_desc {
     font-size: 20px;
   }
+  .quotes_container {
+    width: 80%;
+  }
+
+  .quotes_item {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 702px) {
